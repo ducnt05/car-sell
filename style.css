@@ -7,6 +7,13 @@
   justify-content: center;
   align-items: center;
   margin: 10%;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+}
+.start.show {
+    opacity: 1;
+    visibility: visible;
 }
 .start .login {
   font-size: 20px;

@@ -7,3 +7,6 @@ document.getElementById("aboutBtn").addEventListener("click", function () {
 document.addEventListener("click", function() {
     document.getElementById("bgMusic").play();
 }, { once: true });
+setTimeout(function() {
+    document.getElementById("start").classList.add("show");
+}, 3000);
