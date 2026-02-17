@@ -2,11 +2,16 @@
   box-sizing: border-box;
 }
 body {
-  background-color: black;
+  margin: 0;
 }
+p {
+  font-family: 'Times New Roman', Times, serif;
+}
+
 .container {
   display: flex;
   flex-direction: column;
+  background-color: black;
 }
 
 m,
@@ -28,4 +33,34 @@ m,
 .work {
   color: white;
   font-size: 350%;
+}
+.about-section {
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  
+  color: white;
+  padding: 5%;
+  
+
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  margin-top: 25%;
+  gap: 5%;
+  font-size: larger;
+}
+.content {
+  font-size: larger;
+}
+.skill {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10%;
+  font-size: x-large;
 }
