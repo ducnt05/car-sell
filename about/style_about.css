@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+}
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 0 5%;
+}
+#name {
+    
+    
+}
+
+
+.detail {
+    
+    color: white;
+    width: 40%;
+    margin-left: auto;
+   
+}
+.work {
+    color: white;
+    font-size: 8vh;
+}
