@@ -9,7 +9,7 @@
   margin: 10%;
   opacity: 0;
   visibility: hidden;
-  transition: 0.5s;
+  transition: 2s;
 }
 .start.show {
     opacity: 1;
