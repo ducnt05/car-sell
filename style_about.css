@@ -63,9 +63,10 @@ m,
   justify-content: space-between;
   margin-top: 10%;
   font-size: x-large;
-  cursor: not-allowed;
+  
   
 }
-.skill:hover{
+.skill span:hover{
+  cursor: not-allowed;
   text-decoration: underline;
 }
